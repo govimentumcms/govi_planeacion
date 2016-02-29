@@ -205,7 +205,7 @@ function govi_planeacion_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         0 => array(
-          'vocabulary' => 'planeacion_periodicidad',
+          'vocabulary' => 'periodicidad',
           'parent' => 0,
         ),
       ),

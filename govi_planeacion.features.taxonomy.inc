@@ -9,6 +9,29 @@
  */
 function govi_planeacion_taxonomy_default_vocabularies() {
   return array(
+    'periodicidad' => array(
+      'name' => 'periodicidad',
+      'machine_name' => 'periodicidad',
+      'description' => '',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+      'rdf_mapping' => array(
+        'rdftype' => array(
+          0 => 'skos:ConceptScheme',
+        ),
+        'name' => array(
+          'predicates' => array(
+            0 => 'dc:title',
+          ),
+        ),
+        'description' => array(
+          'predicates' => array(
+            0 => 'rdfs:comment',
+          ),
+        ),
+      ),
+    ),
     'planeacion_clasificacion' => array(
       'name' => 'Planeación Clasificación',
       'machine_name' => 'planeacion_clasificacion',
@@ -59,29 +82,6 @@ function govi_planeacion_taxonomy_default_vocabularies() {
       'name' => 'Planeación Clasificación planes',
       'machine_name' => 'planeacion_clasificacion_planes',
       'description' => '',
-      'hierarchy' => 0,
-      'module' => 'taxonomy',
-      'weight' => 0,
-      'rdf_mapping' => array(
-        'rdftype' => array(
-          0 => 'skos:ConceptScheme',
-        ),
-        'name' => array(
-          'predicates' => array(
-            0 => 'dc:title',
-          ),
-        ),
-        'description' => array(
-          'predicates' => array(
-            0 => 'rdfs:comment',
-          ),
-        ),
-      ),
-    ),
-    'planeacion_periodicidad' => array(
-      'name' => 'Planeación periodicidad',
-      'machine_name' => 'planeacion_periodicidad',
-      'description' => 'Periodicidad para planeación',
       'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
