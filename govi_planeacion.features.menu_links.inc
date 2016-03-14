@@ -48,7 +48,9 @@ transparencia/planeacion/informes-empalme/*',
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/planeacion/metas-objetivos-indicadores
-transparencia/planeacion/metas-objetivos-indicadores/*',
+transparencia/planeacion/metas-objetivos-indicadores/*
+transparencia/planeacion/metas-objetivos-e-indicadores
+transparencia/planeacion/metas-objetivos-e-indicadores/*',
       ),
       'attributes' => array(),
       'item_attributes' => array(
@@ -77,7 +79,9 @@ transparencia/planeacion/metas-objetivos-indicadores/*',
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/planeacion/participacion-ciudadana
-transparencia/planeacion/participacion-ciudadana/*',
+transparencia/planeacion/participacion-ciudadana/*
+transparencia/planeacion/participación-ciudadana
+transparencia/planeacion/participación-ciudadana/*',
       ),
       'attributes' => array(),
       'item_attributes' => array(
@@ -135,7 +139,9 @@ transparencia/planeacion/planes/*',
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/planeacion/programas-proyectos
-transparencia/planeacion/programas-proyectos/*',
+transparencia/planeacion/programas-proyectos/*
+transparencia/planeacion/programas-y-proyectos
+transparencia/planeacion/programas-y-proyectos/*',
       ),
       'attributes' => array(),
       'item_attributes' => array(
