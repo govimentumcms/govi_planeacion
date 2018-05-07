@@ -15,14 +15,14 @@ function govi_planeacion_views_default_views() {
   $view->description = 'Implementa la visualización de planeación que afecta la Entidad';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Planeación';
+  $view->human_name = '6. Planeación';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Planeación';
+  $handler->display->display_options['title'] = '6. Planeación';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -200,9 +200,9 @@ function govi_planeacion_views_default_views() {
   $handler->display->display_options['filters']['field_planeacion_clasificacion_tid']['vocabulary'] = 'planeacion_clasificacion';
 
   /* Display: Planeación */
-  $handler = $view->new_display('page', 'Planeación', 'planeacion');
+  $handler = $view->new_display('page', '6. Planeación', 'planeacion');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Planeación';
+  $handler->display->display_options['title'] = '6. Planeación';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';

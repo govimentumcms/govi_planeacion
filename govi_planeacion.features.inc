@@ -32,9 +32,9 @@ function govi_planeacion_views_api($module = NULL, $api = NULL) {
 function govi_planeacion_node_info() {
   $items = array(
     'planeacion' => array(
-      'name' => t('Planeación'),
+      'name' => t('6. Planeación'),
       'base' => 'node_content',
-      'description' => t('Suministra información de planeación de la Entidad.'),
+      'description' => t('Con este tipo de contenido puede gestionar Políticas, lineamientos y manuales, Plan de gasto público, Programas y proyectos en ejecución, Metas, objetivos e indicadores de gestión y/o desempeño, Participación en la formulación de políticas e Informes de empalme de la Entidad.'),
       'has_title' => '1',
       'title_label' => t('Nombre'),
       'help' => '',
